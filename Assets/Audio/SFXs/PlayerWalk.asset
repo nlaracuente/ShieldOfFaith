@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7e06b50c0579e47a735eaf2a3d23cf, type: 3}
+  m_Name: PlayerWalk
+  m_EditorClassIdentifier: 
+  preventMultiple: 0
+  loop: 0
+  clip: {fileID: 0}
+  clips:
+  - {fileID: 8300000, guid: 858c825d1c37fd447a20ec27181d307c, type: 3}
+  - {fileID: 8300000, guid: 64923278ef1a01f47afd7f045278c84c, type: 3}
+  - {fileID: 8300000, guid: 8ae9cd79a119d4c40abec526d9ad5a25, type: 3}
+  - {fileID: 8300000, guid: fa0067614eecbe04285e27dd9f2a55d7, type: 3}
+  - {fileID: 8300000, guid: 90a61ec46a7664847b08dcb77b6cd76a, type: 3}
+  volume: 1
+  pitch: 1
+  randomPitch:
+    min: 1
+    max: 1.5

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5387226055045885706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5387226055045885717}
+  - component: {fileID: 5387226055045885716}
+  - component: {fileID: 3229205036194355335}
+  - component: {fileID: 1386378504}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5387226055045885717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5387226055045885716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2934efc129cd6484aaf5d7b79756bfd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  sfxPreviewClip: {fileID: 8300000, guid: 74e4321cf9e07b74090a27ecbadbbeda, type: 3}
+  muteMusic: 0
+  muteSfx: 0
+  mixer: {fileID: 24100000, guid: 3ef32ba17fa346b4b9a8183cfb98c94e, type: 2}
+  masterVolumeParameterName: MasterVolume
+  musicVolumeParameterName: MusicVolume
+  sfxVolumeParameterName: SFXVolume
+  defaultMasterVolume: 1
+  defaultMusicVolume: 0.063
+  defaultSFXVolume: 0.371
+  sfxPoolSize: 100
+--- !u!114 &3229205036194355335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350285f5217dfd343930645ebd878664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  hubButtonHover: {fileID: 11400000, guid: b6226c48f27b5244ab59ec68f4531959, type: 2}
+  hubTransition: {fileID: 11400000, guid: 22e52521cf7e2134d96b5019e57d9c68, type: 2}
+  hubLevelHover: {fileID: 11400000, guid: ed2aa8840901a7843bbe7b823bc9bde1, type: 2}
+  hubLevelPlay: {fileID: 11400000, guid: e5e22860f1aecc34a9e3d846ac11a6b0, type: 2}
+  shieldThrow: {fileID: 11400000, guid: b636713999544cb4d919b1efdba81fd7, type: 2}
+  shieldSpin: {fileID: 11400000, guid: 01ff9cbd00949544fa71ddda932c1142, type: 2}
+  shieldBounce: {fileID: 11400000, guid: c846d67f66e79a241a910753d20fb6f6, type: 2}
+  shieldRecall: {fileID: 11400000, guid: 977ff08167cca434d89ddc0e2d905d6e, type: 2}
+  shieldCaught: {fileID: 11400000, guid: ba2c9e4f7665a634780cf42cc8c8001d, type: 2}
+  shieldPickup: {fileID: 11400000, guid: ba2c9e4f7665a634780cf42cc8c8001d, type: 2}
+  shieldFire: {fileID: 11400000, guid: 611b2aaae630ce2498c0c5b102bab0e5, type: 2}
+  shieldFireOut: {fileID: 11400000, guid: 57a8a7f17ad24c745a1b6aa1b959fb6a, type: 2}
+  shieldHit: {fileID: 11400000, guid: c43ad07d3b2645b4a84b8750ec2a6a1e, type: 2}
+  shieldRicochet: {fileID: 11400000, guid: c531ca5bbad8cd24aa387d43a1498fce, type: 2}
+  buttonOn: {fileID: 11400000, guid: bf6114f3e55cb2344bd2bff3c34187fb, type: 2}
+  spikes: {fileID: 11400000, guid: 2f52a76f564f6c34c9116eb47665d31a, type: 2}
+  door: {fileID: 11400000, guid: c47602abba75d9747a5745756173696e, type: 2}
+  bumper: {fileID: 11400000, guid: eb734b16285d93d4899de222f18a489d, type: 2}
+  beeAttack: {fileID: 11400000, guid: f4f871831da6bf342af3b0a59ee5e52e, type: 2}
+  beeDie: {fileID: 11400000, guid: b326a6349af65274e98753e8305cb45b, type: 2}
+  hiveAttack: {fileID: 11400000, guid: 49aa2fab0f4c4fc41ba304e181b437a5, type: 2}
+  hiveHit: {fileID: 11400000, guid: 9d75f93f0feb7744f931644a9c4f6073, type: 2}
+  hiveDestroy: {fileID: 11400000, guid: 17000bea72c85584ba275156f9d08b4d, type: 2}
+  crateDestroy: {fileID: 11400000, guid: a7bf1cfd52ada2444a68f8de2597d76c, type: 2}
+  crateMetal: {fileID: 11400000, guid: 58aea3f7cd35d3e408ed1327679d0c32, type: 2}
+  crateIce: {fileID: 11400000, guid: 5b5fd07d486947c43862d6b4e384786d, type: 2}
+  playerHurt: {fileID: 11400000, guid: 0efc9e7237ea3f14eaa581b182f44385, type: 2}
+  playerDie: {fileID: 11400000, guid: 4b70a70651399654da1c51122ce79063, type: 2}
+  playerWalk: {fileID: 11400000, guid: 067c324b72a3a304ca3e8e2fbd9ac4d9, type: 2}
+  checkpoint: {fileID: 11400000, guid: 416abdd64ae09ac4c8812a195d33a209, type: 2}
+  scripture: {fileID: 11400000, guid: 7de008316e1bff342a8f21ec53b8700f, type: 2}
+  score: {fileID: 11400000, guid: 30f2f9a5629817a439c07231c78c0df4, type: 2}
+  scoreHeart: {fileID: 11400000, guid: e9653fb2b5979b141b9845fdb9a3aac1, type: 2}
+  badge: {fileID: 11400000, guid: 3ae55a58bbd98ea4f8c488b9bb1bd724, type: 2}
+  nickCage: {fileID: 11400000, guid: 2aa1dc7e199ccf34fac5e7028ad92f01, type: 2}
+--- !u!114 &1386378504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6e704da27b9b14da71018f7b4f8bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  mainMenuMusic: {fileID: 8300000, guid: 8d86175e94c1a1240a156af51a03a98f, type: 3}
+  level1Music: {fileID: 8300000, guid: 3b55df6c541756b418f137bab6aef62d, type: 3}
+  level2Music: {fileID: 8300000, guid: 7615a77019a1bc14a8fd6076424d142a, type: 3}
+  level3Music: {fileID: 8300000, guid: d4b7a317953543349ab8a7202c9433f6, type: 3}
+  victoryMusic: {fileID: 8300000, guid: 8d86175e94c1a1240a156af51a03a98f, type: 3}
