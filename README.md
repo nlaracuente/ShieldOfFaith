@@ -1,4 +1,4 @@
-![alt text][screenshot]
+![Shield of Faith][screenshot]
 
 [Game Page](https://ldjam.com/events/ludum-dare/48/live-free) \
 Do fear and doubt have victory over you? Equip the Shield of Faith and defeat fear once and for all
@@ -20,4 +20,4 @@ Pick up the encouraging words and punch depression to have victory over it.
 - Photoshop
 - Audacity
 
-[screenshot]: https://img.itch.zone/aW1nLzc1NTgwODcuanBn/original/4zEN4h.jpg "Shield Of Faith"
+[screenshot]: https://img.itch.zone/aW1nLzc2Nzk0MzIuanBn/315x250%23c/%2BsU72s.jpg "Shield Of Faith"
